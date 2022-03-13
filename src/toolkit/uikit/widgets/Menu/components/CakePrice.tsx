@@ -51,7 +51,7 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd, link }) => {
           href={href}
           target="_blank"
         >
-          <img src={cakePriceUsd == 'Discord'?'images/discord.png':'images/twitter.png'} alt="" width="32px" />
+          <img src={cakePriceUsd === 'Discord'?'images/discord.png':'images/twitter.png'} alt="" width="32px" />
           <Text color="text" bold ml="10px">{cakePriceUsd}</Text>
         </PriceLink>
       </Wrapper>

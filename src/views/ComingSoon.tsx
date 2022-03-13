@@ -10,6 +10,9 @@ const StyledNotFound = styled.div`
   flex-direction: column;
   height: calc(100vh - 64px);
   justify-content: center;
+  // background-image: url("/images/swap/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
 `
 
 const ComingSoon = () => {
