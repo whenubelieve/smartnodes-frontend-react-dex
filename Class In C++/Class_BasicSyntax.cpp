@@ -133,6 +133,7 @@ class Person
 				"Female/Male: " + std::to_string(this->isFemale) + " | " +
 				"Address: " + this->address + " | " +
 				"Profession: " + this->profession + " | " +
+				"Tele: " + this->tele+ " | " +
 				"STD?: " + std::to_string(this->std) + "\n";
 
 			return finalString;

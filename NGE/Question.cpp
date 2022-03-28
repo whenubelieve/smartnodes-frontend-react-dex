@@ -45,6 +45,8 @@ int main()
             int temp;
             cin >> temp;
             v.push_back(temp);
+            nge[st.top()] = i;  //Stoer the index of current element in the places of the elements whose indexes are there
+            st.pop(); //Remove those indexes after assingning their NGL
         }
         vector<int> nge = NGE(v);
         for (int i = 0; i < n; ++i)

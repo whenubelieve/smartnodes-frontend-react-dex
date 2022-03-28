@@ -36,7 +36,7 @@ void reverseWords(string str)
 // Driver program to test function
 int main()
 {
-	string str = "Geeks for Geeks";
+	string str = "string to be reversed";
 	reverseWords(str);
 	return 0;
 }
