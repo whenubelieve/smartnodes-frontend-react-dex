@@ -11,7 +11,7 @@ Resultant array will represent the binary representation of the unique number.
 */
 
 
-// Time Complexity: O (64*n) = O(n) 
+// Time Complexity: O (32*n) = O(n) 
 // Space Complexity: An integer array with 64 elements - 64*4 = 256 bits = 32 bytes
 
 
@@ -30,7 +30,7 @@ int setBit ( int n , int pos ) {
 
 int unique ( int arr [], int n ) {
   int result = 0 ;
-  for ( int i = 0 ; i < 64 ; i++) {
+  for ( int i = 0 ; i < 32 ; i++) {
     int sum = 0 ;
     for ( int j = 0 ; j < n ; j ++) {
       if ( getBit ( arr [ j ], i )) {
